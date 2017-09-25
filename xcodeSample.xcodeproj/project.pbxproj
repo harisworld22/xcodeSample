@@ -14,6 +14,7 @@
 		D2C803D41F793222004DD80B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2C803D31F793222004DD80B /* Assets.xcassets */; };
 		D2C803D71F793222004DD80B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2C803D51F793222004DD80B /* LaunchScreen.storyboard */; };
 		D2C803E21F793224004DD80B /* xcodeSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C803E11F793224004DD80B /* xcodeSampleUITests.swift */; };
+		D2EA7C501F79435300FF4128 /* UserNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EA7C4F1F79435300FF4128 /* UserNameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		D2C803DD1F793224004DD80B /* xcodeSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xcodeSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2C803E11F793224004DD80B /* xcodeSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xcodeSampleUITests.swift; sourceTree = "<group>"; };
 		D2C803E31F793224004DD80B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2EA7C4F1F79435300FF4128 /* UserNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				D2C803CA1F793221004DD80B /* AppDelegate.swift */,
 				D2C803CC1F793221004DD80B /* MasterViewController.swift */,
 				D2C803CE1F793221004DD80B /* DetailViewController.swift */,
+				D2EA7C4F1F79435300FF4128 /* UserNameViewController.swift */,
 				D2C803D01F793222004DD80B /* Main.storyboard */,
 				D2C803D31F793222004DD80B /* Assets.xcassets */,
 				D2C803D51F793222004DD80B /* LaunchScreen.storyboard */,
@@ -204,6 +207,7 @@
 			files = (
 				D2C803CF1F793221004DD80B /* DetailViewController.swift in Sources */,
 				D2C803CD1F793221004DD80B /* MasterViewController.swift in Sources */,
+				D2EA7C501F79435300FF4128 /* UserNameViewController.swift in Sources */,
 				D2C803CB1F793221004DD80B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -410,6 +414,7 @@
 				D2C803E81F793224004DD80B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D2C803E91F793224004DD80B /* Build configuration list for PBXNativeTarget "xcodeSampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +423,7 @@
 				D2C803EB1F793224004DD80B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
